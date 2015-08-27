@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomSwitch.h
 //  UISwitch
 //
 //  Created by Do Minh Hai on 8/11/15.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomSwitch.h"
-@interface ViewController : UIViewController
 
-
+@interface CustomSwitch : UIControl
+@property (nonatomic, assign) BOOL value;
 @end
-

@@ -14,6 +14,13 @@
 		E136F9AF1B79DDEB00D8DA3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136F9AE1B79DDEB00D8DA3F /* Images.xcassets */; };
 		E136F9B21B79DDEB00D8DA3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E136F9B01B79DDEB00D8DA3F /* LaunchScreen.xib */; };
 		E136F9BE1B79DDEB00D8DA3F /* UISwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E136F9BD1B79DDEB00D8DA3F /* UISwitchTests.m */; };
+		E136F9CA1B79DEAB00D8DA3F /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E136F9C91B79DEAB00D8DA3F /* CustomSwitch.m */; };
+		E136F9CE1B7A002800D8DA3F /* backgroud1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E136F9CC1B7A002800D8DA3F /* backgroud1.jpg */; };
+		E136F9CF1B7A002800D8DA3F /* backgroud2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E136F9CD1B7A002800D8DA3F /* backgroud2.jpg */; };
+		E176533A1B7C42FC0060F189 /* OFFBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = E17653361B7C42FC0060F189 /* OFFBlue.png */; };
+		E176533B1B7C42FC0060F189 /* OFFGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = E17653371B7C42FC0060F189 /* OFFGrey.png */; };
+		E176533C1B7C42FC0060F189 /* ONBlue-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E17653381B7C42FC0060F189 /* ONBlue-button.png */; };
+		E176533D1B7C42FC0060F189 /* ONGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = E17653391B7C42FC0060F189 /* ONGrey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		E136F9B71B79DDEB00D8DA3F /* UISwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E136F9BC1B79DDEB00D8DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E136F9BD1B79DDEB00D8DA3F /* UISwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitchTests.m; sourceTree = "<group>"; };
+		E136F9C81B79DEAB00D8DA3F /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		E136F9C91B79DEAB00D8DA3F /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		E136F9CC1B7A002800D8DA3F /* backgroud1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud1.jpg; sourceTree = "<group>"; };
+		E136F9CD1B7A002800D8DA3F /* backgroud2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud2.jpg; sourceTree = "<group>"; };
+		E17653361B7C42FC0060F189 /* OFFBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OFFBlue.png; sourceTree = "<group>"; };
+		E17653371B7C42FC0060F189 /* OFFGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OFFGrey.png; sourceTree = "<group>"; };
+		E17653381B7C42FC0060F189 /* ONBlue-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ONBlue-button.png"; sourceTree = "<group>"; };
+		E17653391B7C42FC0060F189 /* ONGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ONGrey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,8 @@
 		E136F9A01B79DDEB00D8DA3F /* UISwitch */ = {
 			isa = PBXGroup;
 			children = (
+				E136F9CB1B7A001600D8DA3F /* photo */,
+				E136F9C71B79DE1800D8DA3F /* CustomSwitch */,
 				E136F9A51B79DDEB00D8DA3F /* AppDelegate.h */,
 				E136F9A61B79DDEB00D8DA3F /* AppDelegate.m */,
 				E136F9A81B79DDEB00D8DA3F /* ViewController.h */,
@@ -117,6 +134,28 @@
 				E136F9BC1B79DDEB00D8DA3F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E136F9C71B79DE1800D8DA3F /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				E136F9C81B79DEAB00D8DA3F /* CustomSwitch.h */,
+				E136F9C91B79DEAB00D8DA3F /* CustomSwitch.m */,
+			);
+			name = CustomSwitch;
+			sourceTree = "<group>";
+		};
+		E136F9CB1B7A001600D8DA3F /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				E17653361B7C42FC0060F189 /* OFFBlue.png */,
+				E17653371B7C42FC0060F189 /* OFFGrey.png */,
+				E17653381B7C42FC0060F189 /* ONBlue-button.png */,
+				E17653391B7C42FC0060F189 /* ONGrey.png */,
+				E136F9CC1B7A002800D8DA3F /* backgroud1.jpg */,
+				E136F9CD1B7A002800D8DA3F /* backgroud2.jpg */,
+			);
+			name = photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +238,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E136F9CE1B7A002800D8DA3F /* backgroud1.jpg in Resources */,
+				E176533D1B7C42FC0060F189 /* ONGrey.png in Resources */,
+				E136F9CF1B7A002800D8DA3F /* backgroud2.jpg in Resources */,
+				E176533C1B7C42FC0060F189 /* ONBlue-button.png in Resources */,
 				E136F9AD1B79DDEB00D8DA3F /* Main.storyboard in Resources */,
+				E176533B1B7C42FC0060F189 /* OFFGrey.png in Resources */,
+				E176533A1B7C42FC0060F189 /* OFFBlue.png in Resources */,
 				E136F9B21B79DDEB00D8DA3F /* LaunchScreen.xib in Resources */,
 				E136F9AF1B79DDEB00D8DA3F /* Images.xcassets in Resources */,
 			);
@@ -221,6 +266,7 @@
 			files = (
 				E136F9AA1B79DDEB00D8DA3F /* ViewController.m in Sources */,
 				E136F9A71B79DDEB00D8DA3F /* AppDelegate.m in Sources */,
+				E136F9CA1B79DEAB00D8DA3F /* CustomSwitch.m in Sources */,
 				E136F9A41B79DDEB00D8DA3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +462,7 @@
 				E136F9C31B79DDEB00D8DA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E136F9C41B79DDEB00D8DA3F /* Build configuration list for PBXNativeTarget "UISwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				E136F9C61B79DDEB00D8DA3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
